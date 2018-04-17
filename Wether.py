@@ -39,9 +39,9 @@ def makeSoup(html):
 '''
 def stringToMp3(strings_txt):
   strings_txt='早上好，快起床，天气如下， '+strings_txt
-  APPID='11052280'
-  APIKey='aDMhPGEn7G7IAGd012GjXrPf'
-  SecretKey='7929a305e62484b153758103f9eca970'
+  APPID='********'
+  APIKey='**************'
+  SecretKey='*************'
   aipSpeech=AipSpeech(APPID,APIKey,SecretKey)
   result=aipSpeech.synthesis(strings_txt,'zh','1',\
                             {'vol':8,
